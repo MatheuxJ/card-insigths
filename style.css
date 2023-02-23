@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(17, 4, 57);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.components{
+  height: 782px;
+  width: 328px;
+  margin: 88px auto;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgb(32, 21, 82);
+    color: white;
+    text-align: center;
+}
+
+.image {
+  background: linear-gradient(rgba(137, 3, 255, 0.5), rgba(121, 5, 254, 0.5)),
+    url(./images/image-header-mobile.jpg)
+      no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  width: 100%;
+  
+}
+
+.text{
+  padding: 40px 33px;
+  background-color: rgb(32, 21, 82);
+    color: white;
+    text-align: center;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 28px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.texts {
+  padding-bottom: 50px;
+  font-size: 15px;
+  color: rgb(148, 154, 154);
+}
+
+span {
+  color: blueviolet;
+}
+
+.info h2{
+  font-size: 28px;
+}
+
+.info p {
+  font-size: 8px;
+  color: rgb(148, 154, 154);
+}
+
+.companies {
+  padding-bottom: 40px;
+}
+
+.templates {
+  padding-bottom: 40px;
+}
+
+@media(min-width:1000px) {
+    .components{
+      width: 1110px;
+      height: 400px;
+      display: flex;
+      flex-direction: row-reverse;
+      margin: 178px auto;
+    }
+
+    .image {
+      background: linear-gradient(rgba(137, 3, 255, 0.5), rgba(121, 5, 254, 0.5)),
+        url(./images/image-header-desktop.jpg)
+          no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      border-radius: 0 10px 10px 0;
+    }
+
+    .text{
+      padding: 80px 60px;
+      text-align: left;
+    }
+
+    .text h1{
+      text-align: start;
+      font-size: 45px;
+      line-height: 50px;
+    }
+
+    .text p{
+      margin-right: 70px;
+    }
+
+    .info{
+      display: flex;
+      justify-content: space-between;
+      margin-right: 70px;
+    }
+
+  
+
+  /* .components {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  .text {
+    background-color: rgb(32, 21, 82);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    padding: 80px 60px;
+    padding-right: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .text h1 {
+    line-height: 45px;
+    padding-bottom: 20px;
+  }
+  
+  .texts {
+    padding-bottom: 50px;
+    font-size: 15px;
+    color: rgb(148, 154, 154);
+  }
+  
+  span {
+    color: blueviolet;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  
+  .info p {
+    font-size: 8px;
+    color: rgb(148, 154, 154);
+  }
+  
+  .companies {
+    padding-right: 60px;
+  }
+  
+  .templates {
+    padding-right: 60px;
+  }
+  
+  .image {
+    background: linear-gradient(rgba(137, 3, 255, 0.5), rgba(121, 5, 254, 0.5)),
+      url(../stats-preview-card-component-main/images/image-header-desktop.jpg)
+        no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+    width: 480px;
+    border-radius: 0 10px 10px 0;
+  } */
+}
